@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>Hello world!</p>
+<h1>Zagolovok</h1>
+<span>fish-text</span>
+
+<form id="my-from">
+    <fieldset id="fieldset1">
+        <legend>Fieldset 1</legend>
+
+        <label>
+            FIO:
+            <input type="text" id="fio" maxlength="50" name="fio" placeholder="ФИО"/>
+        </label>
+        <label>
+            PSWD:
+            <input type="password" id="password" maxlength="50" name="psw" placeholder="Password"/>
+        </label>
+        <label>
+            AGE:
+            <input type="number" id="age" min="0" max="85" name="age" value="20"/>
+        </label>
+    </fieldset>
+    <fieldset id="fieldset2">
+        <legend>Fieldset 2</legend>
+
+        <label>
+            MESSAGE:
+            <textarea name="message" id="msg" rows="10"></textarea>
+        </label>
+    </fieldset>
+
+    <fieldset id="fieldset3">
+        <legend>Fieldset 3</legend>
+
+        <label>
+            SELECT:
+            <select id="sel">
+                <option>Uno</option>
+                <option>Dos</option>
+                <option>Tres</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <input type="submit">
+</form>
+
+<script src="js/my.js?123"></script>
+</body>
+</html>
